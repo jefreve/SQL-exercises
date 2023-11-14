@@ -9,3 +9,8 @@ CREATE TABLE IF NOT EXISTS books (
     rating VARCHAR,
     stock_count INTEGER NOT NULL
 );
+
+
+ALTER TABLE books
+ADD COLUMN publisher VARCHAR(255) NOT NULL,
+ADD COLUMN number_of_pages INTEGER NOT NULL DEFAULT 0;
