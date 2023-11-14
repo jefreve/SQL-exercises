@@ -1,3 +1,5 @@
+-- exercise 1
+
 CREATE TABLE IF NOT EXISTS books (
     book_id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
@@ -10,6 +12,7 @@ CREATE TABLE IF NOT EXISTS books (
     stock_count INTEGER NOT NULL
 );
 
+-- exercise 2
 
 ALTER TABLE books
 ADD COLUMN publisher VARCHAR(255) NOT NULL,
