@@ -1,3 +1,3 @@
-# Exercise 6
+# Exercise 7
 
-Martin made a few mistakes in updating book details. Revoke his update permissions but let him continue viewing the books.
+You decide to remove a book with BookID = 101 from the Books table. Ensure this change is saved permanently.
