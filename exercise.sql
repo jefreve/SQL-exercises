@@ -55,3 +55,5 @@ UPDATE books SET price=12.99, stock_count=4
 WHERE title='War and Peace' and author='Leo Tolstoy';
 
 -- exercise 5
+
+GRANT SELECT, UPDATE ON books TO 'martin'@'localhost';
