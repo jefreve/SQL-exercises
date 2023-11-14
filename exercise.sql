@@ -73,3 +73,14 @@ COMMIT;
 BEGIN TRANSACTION;
 DELETE FROM books WHERE book_id = 103;
 ROOLBACK;
+
+-- exercise 9
+SELECT * FROM titanic WHERE survived = 1 AND sex = 'female';
+
+SELECT AVG(age) FROM titanic WHERE sex = 'male' AND survived = 0;
+
+SELECT * FROM titanic WHERE fare >= 20 AND fare <= 50 AND embarked = "C"
+
+SELECT COUNT(*) FROM titanic WHERE pclass = 1 AND survived = 1;
+
+SELECT * FROM titanic WHERE fare > 75 AND embarked = 'C';
