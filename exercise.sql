@@ -67,3 +67,9 @@ REVOKE UPDATE ON books TO 'martin'@'localhost';
 BEGIN TRANSACTION;
 DELETE FROM books WHERE book_id = 101;
 COMMIT;
+
+-- exercise 8
+
+BEGIN TRANSACTION;
+DELETE FROM books WHERE book_id = 103;
+ROOLBACK;
